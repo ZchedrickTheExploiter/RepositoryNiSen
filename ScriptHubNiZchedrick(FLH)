@@ -1,0 +1,65 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Zchedrick Script Hub",
+   Icon = 0,
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by Sirius",
+   Theme = "Default",
+   ToggleUIKeybind = "K",
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false,
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil,
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "noinvitelink",
+      RememberJoins = true
+   },
+   KeySystem = false,
+   KeySettings = {
+      Title = "Untitled",
+      Subtitle = "Key System",
+      Note = "No method of obtaining the key is provided",
+      FileName = "Key",
+      SaveKey = true,
+      GrabKeyFromSite = false,
+      Key = {"Hello"}
+   }
+})
+
+-- Create only the "Muscle Legends" Tab
+local MuscleLegendsTab = Window:CreateTab("Muscle Legends", {
+   Name = "Muscle Legends",
+   Icon = "rbxassetid://icon1"
+})
+
+-- Button: Muscle Legends (Free, Not Paid by SEN)
+MuscleLegendsTab:CreateButton({
+   Name = "Muscle Legends (Free, Not Paid by SEN)",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SenTheExploiter/Sen-The-Exploiter/refs/heads/main/Zchedrick-Paid-Script.Luaxzz"))()
+   end
+})
+
+-- Button: Key:SENxYOSHIRO
+MuscleLegendsTab:CreateButton({
+   Name = "Key:SENxYOSHIRO",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTDEVELOPERzzzz/YOSHIROOO-SEN/refs/heads/main/RMPG.Luax"))()
+   end
+})
+
+-- ✅ New Button: SLH Eli Script
+MuscleLegendsTab:CreateButton({
+   Name = "SLH Eli - SEN Muscle Legends",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTDEVELOPERzzzz/SLH-Eli/refs/heads/main/Eli-Sen-Muscle-Legends.lua"))()
+   end
+})
+
+-- Run the Rayfield UI
+Window:ToggleUI()
