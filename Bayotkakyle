@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Junkie Key System - Roblox Script Keys</title>
+    <meta name="description" content="Key system for Roblox scripts with analytics and obfuscation support" />
+    <meta name="author" content="Junkie-Developments" />
+    
+    <meta property="og:title" content="Junkie Key System" />
+    <meta property="og:description" content="Key system for Roblox scripts" />
+    <meta property="og:image" content="https://junkie-development.de/og-image.png" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Junkie Key System" />
+    <meta name="twitter:image" content="https://junkie-development.de/og-image.png" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' chrome-extension: moz-extension: safari-extension:; script-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: chrome-extension: moz-extension: safari-extension:; worker-src 'self' blob: data: chrome-extension: moz-extension:; child-src 'self' blob: chrome-extension: moz-extension:; style-src 'self' 'unsafe-inline' data: blob: https: chrome-extension: moz-extension: safari-extension:; font-src 'self' data: https: chrome-extension: moz-extension:; img-src 'self' data: blob: https: http: chrome-extension: moz-extension: safari-extension:; connect-src 'self' ws: wss: https: http: chrome-extension: moz-extension:; frame-src 'self' https: chrome-extension: moz-extension: safari-extension:; object-src 'none';" />
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin-allow-popups" />
+    <meta http-equiv="Cross-Origin-Embedder-Policy" content="unsafe-none" />
+    <meta name="theme-color" content="#1a1a1a" />
+    <meta name="color-scheme" content="dark" />
+    <link rel="canonical" href="https://junkie-development.de/" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.ico" />
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Roblox Key System",
+      "description": "Professional Roblox Key System. Generate, manage and verify Keys for your Roblox Scripts. With modern UI, Obfuscation and Analytics.",
+      "url": "https://junkie-development.de/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "Junkie-Developments",
+        "url": "https://junkie-development.de/"
+      },
+      "keywords": "roblox key system, roblox keys, roblox script keys, key management, roblox developer, roblox obfuscation, roblox sdk, kostenlos, gratis, key verification, roblox ui"
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/main-2rbzScQ3.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-DSrj9KST.js">
+    <link rel="stylesheet" crossorigin href="/assets/vendor-CVj9lebq.css">
+    <link rel="stylesheet" crossorigin href="/assets/main-BH34Y7Eh.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+  </body>
+</html>
